@@ -1,0 +1,10 @@
+create table product(product_id int,product_name varchar(20),category varchar(20),price int);
+
+insert into product values(1,"T-Shirt","Clothing",10.99);
+insert into product values(2,"Socks","Clothing",4.99);
+insert into product values(3,"Hat","Accessories",12.99);
+insert into product values(4,"Shoes","Footwear",59.99);
+insert into product values(5,"Backpack","Accessories",29.99);
+insert into product values(6,"Pants","Clothing",24.99);
+
+SELECT DISTINCT category FROM product;
